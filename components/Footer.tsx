@@ -3,10 +3,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex mt-10 pb-10">
+    <div className="flex flex-col lg:flex-row mt-10 pb-10 space-y-10 lg:space-y-0 lg:space-x-10">
       <div className="footer-gap">
         <h2 className="text-2xl font-semibold">Resources</h2>
-
         <div className="mt-8">
           <ul className="text-gray text-sm">
             <li className="mb-4">Download </li>
@@ -19,7 +18,6 @@ const Footer = () => {
 
       <div className="footer-gap">
         <h2 className="text-2xl font-semibold">Seboria</h2>
-
         <div className="mt-8">
           <ul className="text-gray text-sm">
             <li className="mb-4">Why Seboria </li>
@@ -32,7 +30,6 @@ const Footer = () => {
 
       <div className="footer-gap">
         <h2 className="text-2xl font-semibold">Company</h2>
-
         <div className="mt-8">
           <ul className="text-gray text-sm">
             <li className="mb-4">Antiques </li>
@@ -45,22 +42,19 @@ const Footer = () => {
 
       <div className="footer-gap">
         <h2 className="text-2xl font-semibold">Resources</h2>
-
         <div className="mt-8">
           <p className="text-gray text-sm">
-          Feel free to get in touch with <br /> us vai email
+            Feel free to get in touch with <br /> us via email
           </p>
-
           <Image 
-          className="mt-10"
-          src="/social.png"
-          alt="social"
-          width={200}
-          height={200}
+            className="mt-10"
+            src="/social.png"
+            alt="social"
+            width={200}
+            height={200}
           />
         </div>
       </div>
-      
     </div>
   );
 };
