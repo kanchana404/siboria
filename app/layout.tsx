@@ -8,6 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Siboria",
   description: "World’s Biggest Anitque Collection",
+
+  
 };
 
 export default function RootLayout({
