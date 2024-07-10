@@ -89,3 +89,19 @@
     margin-left: 50px;
     margin-right: 100px;
   }
+
+  .product-button {
+    background-color: white;
+    background: none;
+    color: #30BBD7;
+    border: 1px solid #30BBD7;
+    border-radius: 5px;
+    width: 130px;
+    height: 45px;
+  }
+  
+  .product-button:hover {
+    background-color: #30BBD7;
+    color: white;
+  }
+  

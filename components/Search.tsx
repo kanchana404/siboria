@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 const Search = () => {
   return (
-    <div className="flex bg-white p-6 mt-6 rounded-2xl">
+    <div className="hidden lg:flex bg-white p-6 mt-6 rounded-2xl">
       <div className=" search-margin">
         <h1 className="text-xl text-black font-semibold">Location</h1>
         <div className="flex">

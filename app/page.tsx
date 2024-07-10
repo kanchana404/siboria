@@ -1,5 +1,7 @@
+import ProductCard from "@/components/ProductCard";
 import Search from "@/components/Search";
 import { Button } from "@/components/ui/button";
+import { P_DETAILS } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
@@ -60,6 +62,27 @@ const page = () => {
       </div>
       <div className="p-8">
         <Search />
+      </div>
+
+      <div className="ml-8">
+        <h1 className="text-4xl font-semibold">Recently Added</h1>
+        <p className="text-gray-500 mt-3">
+          Not thoughts all exercise blessing. Indulgence way everything joy
+          alteration boisterous the attachment.
+        </p>
+        <div className="items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+      {P_DETAILS.map((product, index) => (
+        <ProductCard 
+          key={index}
+          path={product.path}
+          title={product.title}
+          Year={product.Year}
+          type={product.type}
+          price={product.price}
+          bid={product.bid}
+        />
+      ))}
+    </div>
       </div>
     </>
   );
