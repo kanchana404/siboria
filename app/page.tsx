@@ -88,39 +88,33 @@ const page = () => {
 
       <Categories />
 
-      <div className="flex pl-20 mt-40">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start pl-4 lg:pl-20 mt-10 lg:mt-40 space-y-6 lg:space-y-0">
+      <div className="flex-shrink-0">
         <Image src="/girl.png" alt="girl" width={400} height={400} />
-
-        <div className="ml-20  mt-20">
-          <h1 className="text-4xl font-bold ">Buyer’s Feedback</h1>
-          <p className="text-gray-500 mt-3 text-md">
-            Whole front do of plate heard oh ought. His defective nor convinced
-            residence own. Connection has put <br />
-            impossible own apartments boisterous.
-          </p>
-          <div className="flex">
+      </div>
+      <div className="lg:ml-20 mt-10 lg:mt-20">
+        <h1 className="text-2xl lg:text-4xl font-bold">Buyer’s Feedback</h1>
+        <p className="text-gray-500 mt-3 text-sm lg:text-md">
+          Whole front do of plate heard oh ought. His defective nor convinced
+          residence own. Connection has put <br />
+          impossible own apartments boisterous.
+        </p>
+        <div className="flex items-start mt-6">
+          <Image src="/p.png" alt="p" width={60} height={60} className="mt-10" />
+          <div className="ml-4 lg:ml-5">
+            <h1 className="mt-4 lg:mt-10 font-semibold">John Deo</h1>
+            <p className="text-gray-500 text-sm">UI Designer</p>
             <Image
-              src="/p.png"
-              alt="p"
-              width={60}
-              height={60}
-              className="mt-10"
-            />
-            <div>
-              <h1 className="mt-10 ml-5 font-semibold">John Deo</h1>
-              <p className="text-gray-500 text-sm ml-5">UI Designer</p>
-
-              <Image 
               src="/rating.png"
               alt="rating"
               width={80}
               height={80}
-              className="ml-4"
-              />
-            </div>
+              className="mt-2 lg:mt-4"
+            />
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 };
