@@ -29,13 +29,13 @@ const Nav = () => {
         ))}
       </ul>
 
-      <div className="hidden lg:flex justify-center items-center">
+      <div className="hidden lg:flex justify-center items-center mr-3">
         <button className="bg-orange-500 text-white py-2 px-4 rounded">
           Our Collection
         </button>
       </div>
-
-      <div className="lg:hidden">
+      {/* mobile nav */}
+      <div className="lg:hidden mr-5">
   <Sheet>
     <SheetTrigger>
       <svg
