@@ -45,7 +45,7 @@ const Footer = () => {
           <h2 className="text-2xl font-semibold">Contact</h2>
           <div className="mt-8">
             <p className="text-gray-600 text-sm">
-              Feel free to get in touch with <br /> us via email
+              Feel free to get in touch with us via email
             </p>
             <Image 
               className="mt-10"
