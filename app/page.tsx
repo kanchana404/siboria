@@ -1,4 +1,6 @@
 import Categories from "@/components/Categories";
+import Footer from "@/components/Footer";
+import NewsLetter from "@/components/NewsLetter";
 import ProductCard from "@/components/ProductCard";
 import Search from "@/components/Search";
 import { Button } from "@/components/ui/button";
@@ -71,7 +73,7 @@ const page = () => {
           Not thoughts all exercise blessing. Indulgence way everything joy
           alteration boisterous the attachment.
         </p>
-        <div className="items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+        <div className="items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 -ml-8">
           {P_DETAILS.map((product, index) => (
             <ProductCard
               key={index}
@@ -115,6 +117,13 @@ const page = () => {
         </div>
       </div>
     </div>
+
+<div className="p-10">
+<NewsLetter />
+</div>
+
+<Footer />
+   
     </>
   );
 };
