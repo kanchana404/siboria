@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="">
+        <div className="footer-gaplast">
           <h2 className="text-2xl font-semibold">Contact</h2>
           <div className="mt-8">
             <p className="text-gray-600 text-sm">
