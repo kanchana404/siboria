@@ -1,8 +1,9 @@
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex mt-10">
+    <div className="flex mt-10 pb-10">
       <div className="footer-gap">
         <h2 className="text-2xl font-semibold">Resources</h2>
 
@@ -49,6 +50,14 @@ const Footer = () => {
           <p className="text-gray text-sm">
           Feel free to get in touch with <br /> us vai email
           </p>
+
+          <Image 
+          className="mt-10"
+          src="/social.png"
+          alt="social"
+          width={200}
+          height={200}
+          />
         </div>
       </div>
       
