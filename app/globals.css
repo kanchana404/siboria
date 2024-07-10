@@ -79,3 +79,13 @@
   .text-gray{
   color: #4D4F56;
   }
+
+  .search-margin{
+    margin-left: 80px;
+    margin-right: 100px;
+  }
+
+  .search-button{
+    margin-left: 50px;
+    margin-right: 100px;
+  }

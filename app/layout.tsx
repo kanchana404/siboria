@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <body>
+    <body className="bg-gray-100">
       <Nav />
         <div className="main">
           <div className="gradient" />

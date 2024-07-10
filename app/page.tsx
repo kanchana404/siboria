@@ -1,3 +1,4 @@
+import Search from "@/components/Search";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
@@ -56,6 +57,9 @@ const page = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="p-8">
+        <Search />
       </div>
     </>
   );
