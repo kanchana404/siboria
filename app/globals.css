@@ -67,3 +67,11 @@
       @apply bg-background text-foreground;
     }
   }
+
+  .text-blue{
+    color: #263FA4;
+  }
+
+  .text-dark{
+    color: #2D3134;
+  }
