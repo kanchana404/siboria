@@ -102,7 +102,7 @@ const page = () => {
           impossible own apartments boisterous.
         </p>
         <div className="flex items-start mt-6">
-          <Image src="/p.png" alt="p" width={60} height={60} className="mt-10" />
+          <Image src="/p.png" alt="p" width={60} height={60} className="mt-3 sm:mt-10" />
           <div className="ml-4 lg:ml-5">
             <h1 className="mt-4 lg:mt-10 font-semibold">John Deo</h1>
             <p className="text-gray-500 text-sm">UI Designer</p>
