@@ -1,3 +1,4 @@
+import Categories from "@/components/Categories";
 import ProductCard from "@/components/ProductCard";
 import Search from "@/components/Search";
 import { Button } from "@/components/ui/button";
@@ -71,18 +72,33 @@ const page = () => {
           alteration boisterous the attachment.
         </p>
         <div className="items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-      {P_DETAILS.map((product, index) => (
-        <ProductCard 
-          key={index}
-          path={product.path}
-          title={product.title}
-          Year={product.Year}
-          type={product.type}
-          price={product.price}
-          bid={product.bid}
-        />
-      ))}
-    </div>
+          {P_DETAILS.map((product, index) => (
+            <ProductCard
+              key={index}
+              path={product.path}
+              title={product.title}
+              Year={product.Year}
+              type={product.type}
+              price={product.price}
+              bid={product.bid}
+            />
+          ))}
+        </div>
+      </div>
+
+      <Categories />
+
+      <div className="flex pl-12 mt-40">
+        <Image src="/girl.png" alt="girl" width={400} height={400} />
+
+        <div className="ml-12 mt-20">
+          <h1 className="text-4xl font-bold">Buyer’s Feedback</h1>
+          <p className="text-gray-500 mt-3 text-md">
+            Whole front do of plate heard oh ought. His defective <br />
+            nor convinced residence own. Connection has put <br />
+            impossible own apartments boisterous.
+          </p>
+        </div>
       </div>
     </>
   );
