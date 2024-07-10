@@ -118,7 +118,7 @@ const page = () => {
       </div>
     </div>
 
-<div className="p-10">
+<div className="p-5">
 <NewsLetter />
 </div>
 
